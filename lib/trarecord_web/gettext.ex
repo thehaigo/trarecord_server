@@ -20,5 +20,5 @@ defmodule TrarecordWeb.Gettext do
 
   See the [Gettext Docs](https://hexdocs.pm/gettext) for detailed usage.
   """
-  use Gettext, backend: TrarecordWeb.Gettext
+  use Gettext.Backend, otp_app: :trarecord
 end
